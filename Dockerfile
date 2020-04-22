@@ -11,6 +11,8 @@ RUN apk update && apk add --no-cache nmap && \
       ttf-freefont \
       nss \
       nodejs \
-      npm
+      npm \
+      python2 \
+      python3
 
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
